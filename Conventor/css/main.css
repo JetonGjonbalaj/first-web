@@ -1,0 +1,42 @@
+.show, .show-path {
+    opacity: 1;
+    transition: 1s;
+}
+
+.hide, .hide-path{
+    opacity: 0;
+    transition: 1s;
+}
+
+a.nav-link:hover {
+    background-color: #19B5FE;
+    transition: 1s ease;
+    color: white;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    line-height: 60px;
+    background-color: #19B5FE;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #19B5FE;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #19B5FE;
+    border-color: #19B5FE;
+}
+
+a {
+    color: #19B5FE;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
